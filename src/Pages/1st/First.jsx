@@ -8,29 +8,53 @@ function First() {
     <>
       <div className="fixed top-0 left-0 p-4">
         <button className="bg-amber-100 border-2 border-amber-600 text-black text-md px-10 rounded-md w-40 h-10 flex flex-row items-center justify-center">
-        <Link to="/"><FontAwesomeIcon icon={faArrowLeft} /> Back</Link>
+        <Link to="/floors"><FontAwesomeIcon icon={faArrowLeft} /> Back</Link>
         </button>
       </div>
-      <div className="md:container md:mx-auto pt-60 grid md:grid-cols-5 gaps-2">
+      <div className="md:container md:mx-auto pt-60 grid grid-cols-2 md:grid-cols-5 gaps-4">
           <div className='place-self-center'>
-          <a href="/first" className='p-6 rounded bg-green-600 w-50 text-center font-bold text-xl text-white'>
-            <FontAwesomeIcon icon={faBuilding} /> 1st Floor</a>
+          <a href="first/imgcontainer/cashier.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+            <FontAwesomeIcon icon={faBuilding} /> Cashier</a>
           </div>
           <div className='place-self-center'>
-          <a href="first/hrmo" className='p-6 rounded bg-green-600 w-50 text-center font-bold text-xl text-white'>
+          <a href="first/imgcontainer/hrmo.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> HRMO</a>
           </div>
           <div className='place-self-center'>
-          <a href="first/records" className='p-6 rounded bg-green-600 w-50 text-center font-bold text-xl text-white'>
+          <a href="first/imgcontainer/recordsection.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> Records Section</a>
           </div>
           <div className='place-self-center'>
-          <a href="fourth" className='p-6 rounded bg-green-600 w-50 text-center font-bold text-xl text-white'>
-          <FontAwesomeIcon icon={faBuilding} /> 4th Floor</a>
+          <a href="first/imgcontainer/resu.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> RESU</a>
           </div>
           <div className='place-self-center'>
-          <a href="fourth" className='p-6 rounded bg-green-600 w-50 text-center font-bold text-xl text-white'>
-          <FontAwesomeIcon icon={faBuilding} /> 4th Floor</a>
+          <a href="first/imgcontainer/hems.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> HEMS</a>
+          </div>
+          <div className='place-self-center md:mt-28'>
+          <a href="first/imgcontainer/bac.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> BAC</a>
+          </div>
+          <div className='place-self-center mt-28'>
+          <a href="first/imgcontainer/genserv.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> General Services</a>
+          </div>
+          <div className='place-self-center mt-28'>
+          <a href="first/imgcontainer/rledhrt.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> RLED HRT</a>
+          </div>
+          <div className='place-self-center mt-28'>
+          <a href="first/imgcontainer/rledohfrt.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> RLED OHFRT</a>
+          </div>
+          <div className='place-self-center mt-28'>
+          <a href="first/imgcontainer/rledstaff.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> RLED Staff</a>
+          </div>
+          <div className='place-self-center mt-28 col-start-3'>
+          <a href="first/imgcontainer/supply.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <FontAwesomeIcon icon={faBuilding} /> Supply</a>
           </div>
       </div>
     </>
