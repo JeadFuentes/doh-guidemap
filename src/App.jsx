@@ -8,6 +8,7 @@ import Third from './Pages/3rd/Third'
 import Fourth from './Pages/4th/Fourth'
 import Imgcontainer from './Pages/1st/Imgcontainer'
 import Imgcontainer2 from './Pages/2nd/Imgcontainer2'
+import Imgcontainer3 from './Pages/3rd/Imgcontainer3'
 
 const App = () => {
   return (
@@ -24,7 +25,10 @@ const App = () => {
         <Route index element={<Second/>}/>
         <Route path="imgcontainer2/:id" element={<Imgcontainer2 />}/>
       </Route>
-      <Route path="/third" element={<Third />}/>
+      <Route path="/third">
+        <Route index element={<Third />}/>
+        <Route path="imgcontainer3/:id" element={<Imgcontainer3 />}/>
+      </Route>
       <Route path="/fourth" element={<Fourth />}/>
     </Routes>
     </body>
