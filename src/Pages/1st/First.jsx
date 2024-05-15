@@ -12,47 +12,47 @@ function First() {
         </button>
       </div>
       <div className="md:container md:mx-auto pt-60 grid grid-cols-2 md:grid-cols-5 gaps-4">
-          <div className='place-self-center col-span-2'>
-          <a href="first/imgcontainer/hrmo.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <div className='place-self-start col-span-2'>
+          <a href="first/imgcontainer/hrmo.png" className='p-6 rounded bg-green-500 w-50 text-start font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> (HRMO) Human Resource Management Office</a>
           </div>
-          <div className='place-self-center'>
-          <a href="first/imgcontainer/cashier.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <div className='place-self-start'>
+          <a href="first/imgcontainer/cashier.png" className='p-6 rounded bg-green-500 w-full text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> Cashier</a>
           </div>
-          <div className='place-self-center col-span-2'>
+          <div className='place-self-start col-span-2'>
           <a href="first/imgcontainer/resu.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> (RESU) Regional Epidemilogy & Surveillance Unit</a>
           </div>
-          <div className='place-self-center col-span-2 md:mt-28'>
+          <div className='place-self-start col-span-2 md:mt-24'>
           <a href="first/imgcontainer/hems.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> (HEMS) Health Emergency Management Staff</a>
           </div>
-          <div className='place-self-center md:mt-28'>
+          <div className='place-self-start md:mt-24'>
           <a href="first/imgcontainer/recordsection.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> Records Section</a>
           </div>
-          <div className='place-self-center col-span-2 md:mt-28'>
+          <div className='place-self-start col-span-2 md:mt-24'>
           <a href="first/imgcontainer/bac.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> (BAC) Bidding And Awards</a>
           </div>
-          <div className='place-self-center col-span-2 mt-28'>
+          <div className='place-self-start col-span-2 mt-24'>
           <a href="first/imgcontainer/rledhrt.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> (RLED HRT) Hospital Regulatory Team</a>
           </div>
-          <div className='place-self-center mt-28'>
+          <div className='place-self-start mt-24'>
           <a href="first/imgcontainer/genserv.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> General Services</a>
           </div>
-          <div className='place-self-center col-span-2 mt-28'>
+          <div className='place-self-start col-span-2 mt-24'>
           <a href="first/imgcontainer/rledohfrt.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> (RLED) Other Health Facility Enforcement Division</a>
           </div>
-          <div className='place-self-center col-span-3 mt-28'>
+          <div className='place-self-start col-start-2 col-span-2 mt-24'>
           <a href="first/imgcontainer/rledstaff.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
-          <FontAwesomeIcon icon={faBuilding} /> (RLED) Regutation and Licensing Enforcement Division Office</a>
+          <FontAwesomeIcon icon={faBuilding} /> (RLED) Regutation and Licensing Enforcement Division</a>
           </div>
-          <div className='place-self-center mt-28'>
+          <div className='place-self-start mt-24'>
           <a href="first/imgcontainer/supply.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> Supply</a>
           </div>

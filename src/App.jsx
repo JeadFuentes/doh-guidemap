@@ -13,7 +13,7 @@ import Imgcontainer3 from './Pages/3rd/Imgcontainer3'
 const App = () => {
   return (
     <>
-    <body className='bg-green-100 h-screen'>
+    <body className='bg-green-50 h-screen'>
     <Routes>
       <Route path="/" element={<Dashboard />}/>
       <Route path="/floors" element={<Floorselections />}/>
