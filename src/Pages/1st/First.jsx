@@ -16,12 +16,12 @@ function First() {
           <a href="first/imgcontainer/hrmo.png" className='p-6 rounded bg-green-500 w-50 text-start font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> (HRMO) Human Resource Management Office</a>
           </div>
-          <div className='place-self-start'>
-          <a href="first/imgcontainer/cashier.png" className='p-6 rounded bg-green-500 w-full text-center font-bold text-xl text-white'>
+          <div className='place-self-start w-full p-6 rounded bg-green-500'>
+          <a href="first/imgcontainer/cashier.png" className=' w-full text-center font-bold text-xl text-white'>
           <FontAwesomeIcon icon={faBuilding} /> Cashier</a>
           </div>
           <div className='place-self-start col-span-2'>
-          <a href="first/imgcontainer/resu.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white'>
+          <a href="first/imgcontainer/resu.png" className='p-6 rounded bg-green-500 w-50 text-center font-bold text-xl text-white '>
           <FontAwesomeIcon icon={faBuilding} /> (RESU) Regional Epidemilogy & Surveillance Unit</a>
           </div>
           <div className='place-self-start col-span-2 md:mt-24'>
