@@ -34,13 +34,13 @@ function Imgcontainer2() {
     </div>
     <div className="fixed top-20 left-2 p-4 bg-green-200 border-2 border-green-600">
         <button className="bg-green-500 text-black text-md px-10 rounded-md w-40 h-10 flex flex-row items-center justify-center mb-4" onClick={handleZoomIn}>
-         Zoom <FontAwesomeIcon icon={faMagnifyingGlassPlus} />
+        <FontAwesomeIcon icon={faMagnifyingGlassPlus} />  Zoom 
         </button>
         <button className="bg-green-500 text-black text-md px-10 rounded-md w-40 h-10 flex flex-row items-center justify-center mb-4" onClick={handleZoomOut}>
-         Zoom <FontAwesomeIcon icon={faMagnifyingGlassMinus} />
+         <FontAwesomeIcon icon={faMagnifyingGlassMinus} /> Zoom 
         </button>
         <button className="bg-green-500 text-black text-md px-10 rounded-md w-40 h-10 flex flex-row items-center justify-center" onClick={handleReset}>
-         Reset <FontAwesomeIcon icon={faArrowsRotate} />
+        <FontAwesomeIcon icon={faArrowsRotate} />  Reset 
         </button>
     </div>
     <div className='place-self-center text-2xl text-center mx-auto pt-52 md:pt-0 md:ml-56' style={{width: "80%"}}>
