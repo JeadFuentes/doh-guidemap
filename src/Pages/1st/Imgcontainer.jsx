@@ -31,6 +31,42 @@ function Imgcontainer() {
           </TransformComponent>
         </TransformWrapper>
     </div>
+    <div className="mt-5">
+            <div className="row mt-3 d-flex justify-content-center">
+              <div className="col-lg-12 text-center text-dark">
+                <h2>Zoomable image with custom controls</h2>
+              </div>
+              <div className="col-lg-8 text-center text-dark">
+                <TransformWrapper
+                  defaultScale={1}
+                  defaultPositionX={1}
+                  defaultPositionY={1}
+                >
+                  {({ zoomIn, zoomOut, ...rest }) => (
+                    <>
+                      <div className="col-lg-12 text-center mb-3">
+                        <button
+                          className="bg-green-500"
+                          onClick={zoomIn}
+                        >
+                         Zoom In
+                        </button>
+                        <button
+                          className="bg-green-500"
+                          onClick={zoomOut}
+                        >
+                         Zoom Out
+                        </button>
+                      </div>
+                      <TransformComponent>
+                        <img src={`/floor-images/1/${id}`} style={{ width: "70%" }} />
+                      </TransformComponent>
+                    </>
+                  )}
+                </TransformWrapper>
+              </div>
+            </div>
+          </div>
     </body>
     </>
   )
